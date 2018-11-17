@@ -36,7 +36,7 @@ We recommend building on Ubuntu 16.04 LTS (64-bit)
 
 **Build Script:**
 
-    git clone https://github.com/bitshares/bitshares-core.git
+    git clone https://github.com/citshares/bitshares-core.git
     cd bitshares-core
     git checkout master # may substitute "master" with current release tag
     git submodule update --init --recursive
