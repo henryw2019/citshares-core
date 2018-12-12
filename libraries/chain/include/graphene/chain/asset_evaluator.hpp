@@ -157,6 +157,9 @@ namespace graphene { namespace chain {
 
          const asset_object* asset_ptr = nullptr;
          const asset_bitasset_data_object* bitasset_ptr = nullptr;
+	private:
+		 bool is_feeds_price_lower_than_buy_order(const asset_publish_feed_operation& o);
+
    };
 
    class asset_claim_fees_evaluator : public evaluator<asset_claim_fees_evaluator>
