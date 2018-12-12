@@ -907,6 +907,33 @@ operation_result asset_settle_evaluator::do_apply(const asset_settle_evaluator::
    }
 } FC_CAPTURE_AND_RETHROW( (op) ) }
 
+
+
+bool asset_publish_feeds_evaluator::is_feeds_price_lower_than_buy_order(const asset_publish_feed_operation& o)
+{
+   database& d = db();
+   const asset_id_type asset = o.asset_id;
+   const asset_id_type base = asset_id_type(d.get_core_asset().id);
+
+   const auto& limit_order_idx = d.get_index_type<limit_order_index>();
+   const auto& limit_price_idx = limit_order_idx.indices().get<by_price>();
+
+   auto limit_itr = limit_price_idx.lower_bound(price::max(asset,base));
+   auto limit_end = limit_price_idx.upper_bound(price::min(asset,base));
+   if (limit_itr != limit_end)
+   {
+      auto ord = *limit_itr;
+      if (o.feed.settlement_price <= ord.sell_price) {
+         std::cout << "feed price lower than buy price, invalid feed price" << std::endl;
+         std::cout << " to_real of feed price " << o.feed.settlement_price.to_real() << std::endl;
+         std::cout << " to real of order price " << ord.sell_price.to_real() << std::endl;
+         return true;
+      }
+   }
+
+   return false;
+}
+
 void_result asset_publish_feeds_evaluator::do_evaluate(const asset_publish_feed_operation& o)
 { try {
    database& d = db();
@@ -959,6 +986,11 @@ void_result asset_publish_feeds_evaluator::do_evaluate(const asset_publish_feed_
                  "The account is not in the set of allowed price feed producers of this asset" );
    }
 
+   if (is_feeds_price_lower_than_buy_order(o))
+   {
+      FC_ASSERT(false, "Do Not Update Feed Price,If You saw this in restart witness, please add --replay-blockchain");
+   }
+
    asset_ptr = &base;
    bitasset_ptr = &bitasset;
 
@@ -970,6 +1002,7 @@ void_result asset_publish_feeds_evaluator::do_apply(const asset_publish_feed_ope
 
    database& d = db();
 
+
    const asset_object& base = *asset_ptr;
    const asset_bitasset_data_object& bad = *bitasset_ptr;
 
@@ -979,6 +1012,7 @@ void_result asset_publish_feeds_evaluator::do_apply(const asset_publish_feed_ope
       a.feeds[o.publisher] = make_pair(d.head_block_time(), o.feed);
       a.update_median_feeds(d.head_block_time());
    });
+
 
    if( !(old_feed == bad.current_feed) )
    {
