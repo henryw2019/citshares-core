@@ -1,5 +1,5 @@
 {
-  "initial_timestamp": "2018-12-16T05:21:45",
+  "initial_timestamp": "2018-12-22T06:38:45",
   "max_core_supply": "100000000000000",
   "initial_parameters": {
     "current_fees": {
@@ -302,192 +302,192 @@
   },
   "initial_accounts": [
     {
-      "name": "group-c0",
-      "owner_key": "CTS5qEXXdwa5Akdh7FpU4Jn1rhvpY7HovyGVAWdQVefBKFYowAhUS",
-      "active_key": "CTS5qEXXdwa5Akdh7FpU4Jn1rhvpY7HovyGVAWdQVefBKFYowAhUS",
+      "name": "committee0",
+      "owner_key": "CTS7zvg4rdCGZ4VHHx2c6RHDYWxvmjwwPHGobAm7SGS78XYPCVbym",
+      "active_key": "CTS7zvg4rdCGZ4VHHx2c6RHDYWxvmjwwPHGobAm7SGS78XYPCVbym",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c1",
-      "owner_key": "CTS5vDV5mc3Et1E9e3DFeNoUyUgiM1F9HtjB6M5Cgo6W4FWpweMsP",
-      "active_key": "CTS5vDV5mc3Et1E9e3DFeNoUyUgiM1F9HtjB6M5Cgo6W4FWpweMsP",
+      "name": "committee1",
+      "owner_key": "CTS5u5ozRKvURFzpcySAFH8B6R7rRTbdC4UzfpFUWt8zcUnDSTChC",
+      "active_key": "CTS5u5ozRKvURFzpcySAFH8B6R7rRTbdC4UzfpFUWt8zcUnDSTChC",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c2",
-      "owner_key": "CTS7moFVotPEGQ8macTFX4yQ4d9CHM1hSnK8mX8oPjC2CE8VgXgau",
-      "active_key": "CTS7moFVotPEGQ8macTFX4yQ4d9CHM1hSnK8mX8oPjC2CE8VgXgau",
+      "name": "committee2",
+      "owner_key": "CTS78pPX1Vau5Bm5DbARHcomnjESSZzPgdZbx3GL8ghgS6g57w6Q6",
+      "active_key": "CTS78pPX1Vau5Bm5DbARHcomnjESSZzPgdZbx3GL8ghgS6g57w6Q6",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c3",
-      "owner_key": "CTS5AJUiUbsSRK7fF3Er49g4TPfR85QiuNU6uCV7EsUfPadvRZ3VZ",
-      "active_key": "CTS5AJUiUbsSRK7fF3Er49g4TPfR85QiuNU6uCV7EsUfPadvRZ3VZ",
+      "name": "committee3",
+      "owner_key": "CTS59uGRgxLTdwuruVD98r7ALSXF4ckBPRF7sGYUnEWY1WscoHcc2",
+      "active_key": "CTS59uGRgxLTdwuruVD98r7ALSXF4ckBPRF7sGYUnEWY1WscoHcc2",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c4",
-      "owner_key": "CTS6dL7eshdkq2oiKee6367wYCkDNrWBbDKLx7dRw18eU9HLXu6w4",
-      "active_key": "CTS6dL7eshdkq2oiKee6367wYCkDNrWBbDKLx7dRw18eU9HLXu6w4",
+      "name": "committee4",
+      "owner_key": "CTS748SxgNeFT4T6vwYMvKWphoBdFfDmcbNh2CiyDJBDSecDyU49D",
+      "active_key": "CTS748SxgNeFT4T6vwYMvKWphoBdFfDmcbNh2CiyDJBDSecDyU49D",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c5",
-      "owner_key": "CTS7qssKtTkZiqyVoTQQdY6BSFXj95MZAR13m3zBUX1vtps9Afi26",
-      "active_key": "CTS7qssKtTkZiqyVoTQQdY6BSFXj95MZAR13m3zBUX1vtps9Afi26",
+      "name": "committee5",
+      "owner_key": "CTS6sDJSFRXC1PnauuhD7XyvkG2Qx5SjQt3ZzipP2WDw1zBDwyKZm",
+      "active_key": "CTS6sDJSFRXC1PnauuhD7XyvkG2Qx5SjQt3ZzipP2WDw1zBDwyKZm",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c6",
-      "owner_key": "CTS653ZpfJ7NQQ3rzvajsibzHxztwxG6C6ZhJgNXQeuixJMvVzkqt",
-      "active_key": "CTS653ZpfJ7NQQ3rzvajsibzHxztwxG6C6ZhJgNXQeuixJMvVzkqt",
+      "name": "committee6",
+      "owner_key": "CTS5zCpxSyfWsmqg6EYLvooue3ZrcQ4XVHt7ghE3gzZdnrHUV8wu4",
+      "active_key": "CTS5zCpxSyfWsmqg6EYLvooue3ZrcQ4XVHt7ghE3gzZdnrHUV8wu4",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c7",
-      "owner_key": "CTS5kQuvLcZkLQi2UZ61JuE4Enj9pwrQXEyjXVfcXZQxwgb3DVsQH",
-      "active_key": "CTS5kQuvLcZkLQi2UZ61JuE4Enj9pwrQXEyjXVfcXZQxwgb3DVsQH",
+      "name": "committee7",
+      "owner_key": "CTS851uHjKrjZEyvBw1pGUkUdNdwKwoD5jZuEpoX26aZRhg5ejp79",
+      "active_key": "CTS851uHjKrjZEyvBw1pGUkUdNdwKwoD5jZuEpoX26aZRhg5ejp79",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c8",
-      "owner_key": "CTS5uxMBQLxBCK7YrfvpVvyMAg4WiVBLfa33991YojKwfpT9DwbHV",
-      "active_key": "CTS5uxMBQLxBCK7YrfvpVvyMAg4WiVBLfa33991YojKwfpT9DwbHV",
+      "name": "committee8",
+      "owner_key": "CTS6pdPfb3SkLnHboLec8FeAXL8XbBqUu3jUDkMfJA4MeJJbjB57r",
+      "active_key": "CTS6pdPfb3SkLnHboLec8FeAXL8XbBqUu3jUDkMfJA4MeJJbjB57r",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c9",
-      "owner_key": "CTS6gGvAJY9XaNb8zCyH1TsbHHCM2rz5tRdhF5Q83fDjKw7VChbhV",
-      "active_key": "CTS6gGvAJY9XaNb8zCyH1TsbHHCM2rz5tRdhF5Q83fDjKw7VChbhV",
+      "name": "committee9",
+      "owner_key": "CTS4xnwizUbjwvnPbhCTkfn5LHF6GFoCMUbEy332TMh6qKpBKBau4",
+      "active_key": "CTS4xnwizUbjwvnPbhCTkfn5LHF6GFoCMUbEy332TMh6qKpBKBau4",
       "is_lifetime_member": true
     },
     {
-      "name": "group-c10",
-      "owner_key": "CTS5bL2X63zLkFE25YsJc3qFtHB3mYWcMRxrqQTRSHuAe8x2qLnmV",
-      "active_key": "CTS5bL2X63zLkFE25YsJc3qFtHB3mYWcMRxrqQTRSHuAe8x2qLnmV",
+      "name": "committee10",
+      "owner_key": "CTS53EQW5UfyQB9xBFSSkKR6Hzt3mqfKR61epDfKATN6oNQYeWrwP",
+      "active_key": "CTS53EQW5UfyQB9xBFSSkKR6Hzt3mqfKR61epDfKATN6oNQYeWrwP",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w0",
-      "owner_key": "CTS7uMN1Wsb9F5sYXrN9ugeC28TsbRVscX4jMvZLvoHMFpJoh2cnQ",
-      "active_key": "CTS7uMN1Wsb9F5sYXrN9ugeC28TsbRVscX4jMvZLvoHMFpJoh2cnQ",
+      "name": "witness0",
+      "owner_key": "CTS6T8phpzJ9cVpwavUNGA9uGBzEYBsKJtdrFkXfeAh3A9v3xALZE",
+      "active_key": "CTS6T8phpzJ9cVpwavUNGA9uGBzEYBsKJtdrFkXfeAh3A9v3xALZE",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w1",
-      "owner_key": "CTS5DFCZE2LofUVLzsFnbPGHgcTBRrZ8dMWxFF3xYraxLC44U2ftR",
-      "active_key": "CTS5DFCZE2LofUVLzsFnbPGHgcTBRrZ8dMWxFF3xYraxLC44U2ftR",
+      "name": "witness1",
+      "owner_key": "CTS62BHuqyTgUEaqUEjvXXMpsiAneqPnPYdXZZKe6ziEtJ5ScJcKq",
+      "active_key": "CTS62BHuqyTgUEaqUEjvXXMpsiAneqPnPYdXZZKe6ziEtJ5ScJcKq",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w2",
-      "owner_key": "CTS8FmzNaU3A1Zxcdi7SUT78adtYTJthmbmgbJQMF69BSc4eddPhq",
-      "active_key": "CTS8FmzNaU3A1Zxcdi7SUT78adtYTJthmbmgbJQMF69BSc4eddPhq",
+      "name": "witness2",
+      "owner_key": "CTS7mUBQmYRQGmXLCBD6bkNMB8taNu731ATESxbHYzmhbr9eQGX1C",
+      "active_key": "CTS7mUBQmYRQGmXLCBD6bkNMB8taNu731ATESxbHYzmhbr9eQGX1C",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w3",
-      "owner_key": "CTS8UVPPWvNx7ue5bmxEBAEmXLEjhfpciCfxUGBwM11ARorhfDAk3",
-      "active_key": "CTS8UVPPWvNx7ue5bmxEBAEmXLEjhfpciCfxUGBwM11ARorhfDAk3",
+      "name": "witness3",
+      "owner_key": "CTS4xy4LetXTM29i57GzMW8Ts4nL5mD3hwDPJmo4Lx8aDHQrrNAFE",
+      "active_key": "CTS4xy4LetXTM29i57GzMW8Ts4nL5mD3hwDPJmo4Lx8aDHQrrNAFE",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w4",
-      "owner_key": "CTS5ApJ8d956d26836azJ1cJtd4CicRmCd8sxmJ41toZM5DvNt2S8",
-      "active_key": "CTS5ApJ8d956d26836azJ1cJtd4CicRmCd8sxmJ41toZM5DvNt2S8",
+      "name": "witness4",
+      "owner_key": "CTS54nMMF1R3yBb5vYtjaYmE97jzCrvuKN7AuhP3UPQPmKhJLF7nC",
+      "active_key": "CTS54nMMF1R3yBb5vYtjaYmE97jzCrvuKN7AuhP3UPQPmKhJLF7nC",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w5",
-      "owner_key": "CTS5NeyQCq34h51ibgyRZBuiYDuXjEzm6t4qYKbfUTBbEzdekueMs",
-      "active_key": "CTS5NeyQCq34h51ibgyRZBuiYDuXjEzm6t4qYKbfUTBbEzdekueMs",
+      "name": "witness5",
+      "owner_key": "CTS7h1QCUApq7LgG8aCCRcxAwCU3KKQXmphMFJ7HYajr4ktQ9NT16",
+      "active_key": "CTS7h1QCUApq7LgG8aCCRcxAwCU3KKQXmphMFJ7HYajr4ktQ9NT16",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w6",
-      "owner_key": "CTS8hvR1D5ynNGBDyFxzbWt4HaCSieQGuDfLmqaZJj99WrDsqaxtF",
-      "active_key": "CTS8hvR1D5ynNGBDyFxzbWt4HaCSieQGuDfLmqaZJj99WrDsqaxtF",
+      "name": "witness6",
+      "owner_key": "CTS7uD5eXBQKVWd5XF6XqNnGzgAHHgxC76hS6yqpMpB4frcEgG5Cf",
+      "active_key": "CTS7uD5eXBQKVWd5XF6XqNnGzgAHHgxC76hS6yqpMpB4frcEgG5Cf",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w7",
-      "owner_key": "CTS824mH1vdfS1bEntD4YC3eTh6S3aC5FqT8K3DJR9FFR8pLSfLWX",
-      "active_key": "CTS824mH1vdfS1bEntD4YC3eTh6S3aC5FqT8K3DJR9FFR8pLSfLWX",
+      "name": "witness7",
+      "owner_key": "CTS7bpHBoCJCnUiwTA2ftZNwnvn1y3TxUyCSFFzSE9XcopFhM59FP",
+      "active_key": "CTS7bpHBoCJCnUiwTA2ftZNwnvn1y3TxUyCSFFzSE9XcopFhM59FP",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w8",
-      "owner_key": "CTS8U4V9szoeBCoeqZMPB3QU4CVtobQ8KSeUHttWowecFjN5KZodW",
-      "active_key": "CTS8U4V9szoeBCoeqZMPB3QU4CVtobQ8KSeUHttWowecFjN5KZodW",
+      "name": "witness8",
+      "owner_key": "CTS7yRR68Ht2nzosCRGTK5Px89fMqvx5V8vUhRrUXiELntDWgv13e",
+      "active_key": "CTS7yRR68Ht2nzosCRGTK5Px89fMqvx5V8vUhRrUXiELntDWgv13e",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w9",
-      "owner_key": "CTS5C7ozw7AADZwYaDHzFpVomnt3E6MCzy2UexoV2FaFL3TCdsBDS",
-      "active_key": "CTS5C7ozw7AADZwYaDHzFpVomnt3E6MCzy2UexoV2FaFL3TCdsBDS",
+      "name": "witness9",
+      "owner_key": "CTS4yoPjjaiKa3DdxuntG1q6H82upGRURaZcJqLpopQKVMp8iMqoh",
+      "active_key": "CTS4yoPjjaiKa3DdxuntG1q6H82upGRURaZcJqLpopQKVMp8iMqoh",
       "is_lifetime_member": true
     },
     {
-      "name": "group-w10",
-      "owner_key": "CTS5B9Y6LVEkKrExhAGCA9GqXtE9niAJMjJXvgEtPnu2s8RbgJeUq",
-      "active_key": "CTS5B9Y6LVEkKrExhAGCA9GqXtE9niAJMjJXvgEtPnu2s8RbgJeUq",
+      "name": "witness10",
+      "owner_key": "CTS6VdpzDXZv4dHArL2SyhRTosuuXBxuZVCVXxycvyRGm7bN9t6hw",
+      "active_key": "CTS6VdpzDXZv4dHArL2SyhRTosuuXBxuZVCVXxycvyRGm7bN9t6hw",
       "is_lifetime_member": true
     }
   ],
   "initial_assets": [],
   "initial_balances": [
     {
-      "owner": "CTS2b8aJp8dxHtfMSZgd9w1MP75G26J6ztu9",
+      "owner": "CTSPcqQ9SRqqGZPUNzFxXmhRG4Kuey6kB1Nc",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSEhqv6CgGycQcLVrxdi2BwWjtHFEVVu94o",
+      "owner": "CTS9YvFxmW99HZB1yuSjAvWZmkGrCPkEsJyJ",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTS4udXXaovpG5H3XSbSiXYGjZz2FpV9KoJD",
+      "owner": "CTSNrRSb5Ruq48NDuhGzhtwjTxZNyoJzVM2s",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSLMtqjc3Z2NjUeJ9gCjtH2dQEjDU7DUtdA",
+      "owner": "CTSLMQTMYzusZoJWffyEYJWU1PrKCaYJf8tm",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSCiaJdCWmnrrELd88m8XwmLnLW3QxpAnDG",
+      "owner": "CTSAxUk8ePspAaM2qNhA3Snzpk6FMwNDxZdy",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTS6cstzDNPuPMHVuQvcnE4MRDVHYPr2ZUaB",
+      "owner": "CTSLHMMkzAAFfkGGRFiJJ9noJQ4d7U2wCdnH",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTS5aFssoFKU3Te6nNMKq5x9B6dg3Mrd3Meh",
+      "owner": "CTSGArzc2bfezmuQ1KN4Jx9Dof7L4Dj7Ttty",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSEH9TvZUFXwWeGnPkypQvijMFFefcCtQ4H",
+      "owner": "CTS9ZLbG1azJQpz5pG1dTyGCu4UjBXd53VV7",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSJK4XDmDBJMYT4dfbUpxiX1fJdwxYpXa2q",
+      "owner": "CTSGuQ5LQ9khfaVaeM31npstfcprVvn3PD1X",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSMae3jVckYqvgqmEqJgamYiraYK4KBMkvP",
+      "owner": "CTS96wy8LSWWTeubRLaBzTDeyHPbX7ifdG8n",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     },
     {
-      "owner": "CTSFssvEYTv65prYrwymYskBWapYbXWZJDAB",
+      "owner": "CTSCTW5y7VXvHDrR4GB1arcpyFpdQ1JV5P8c",
       "asset_symbol": "CTS",
       "amount": "10000000000"
     }
@@ -496,83 +496,83 @@
   "initial_active_witnesses": 11,
   "initial_witness_candidates": [
     {
-      "owner_name": "group-w0",
-      "block_signing_key": "CTS5AuD9YNnxvuhkFGdTQBynb2BRbvNFgRVLS42sF5Zcq8Tk3hCHW"
+      "owner_name": "witness0",
+      "block_signing_key": "CTS7sJgLzRwU8P3y6tNCoPtZtKf4D71MZ3imRXCKXdZQZ8HVDQdu6"
     },
     {
-      "owner_name": "group-w1",
-      "block_signing_key": "CTS83Lv3nG4SMUvkoW2EiYjfVyHpVFmutQJUxA4Rj2QpFHEewqZQK"
+      "owner_name": "witness1",
+      "block_signing_key": "CTS7a7NeZMFPqmBReveDHg2Xiufp48gg9bDKw9m45xja2we5J9K3e"
     },
     {
-      "owner_name": "group-w2",
-      "block_signing_key": "CTS8afrWaDsZLoNHUa1qoRwY19Q8JExv5doJaeujcfSawc26FmCTc"
+      "owner_name": "witness2",
+      "block_signing_key": "CTS5aQP1W7LYx9Mswy8guPzJ2aMz9icyJcFKi6XVcwudPRxSHqAtr"
     },
     {
-      "owner_name": "group-w3",
-      "block_signing_key": "CTS8ajSwyL6fjvBLavsghZnDEu5qjNxNRyQsQRkGaztduzWqKXnjo"
+      "owner_name": "witness3",
+      "block_signing_key": "CTS7VgLkEUZfFX28icLtj1wGWheieUP8aPrAbqdqqv5bHGrwRMBBV"
     },
     {
-      "owner_name": "group-w4",
-      "block_signing_key": "CTS72Fw6K7YqTA9xgqWeCD3CmNxungKHhS2Y2YcimQrLZW4qb3fBg"
+      "owner_name": "witness4",
+      "block_signing_key": "CTS6ZqsgkFAVT4HFefhNGN4FCdSkMaL9yATuo3fs4uGfe9w3WYAPE"
     },
     {
-      "owner_name": "group-w5",
-      "block_signing_key": "CTS7fUDzNY4MkW4rqQcq4j1CY7yjB2C6rNQ8FNn9KA8UvmKweUikh"
+      "owner_name": "witness5",
+      "block_signing_key": "CTS7q4tkndhwqzodzcsXcSuEQbEh6k3R2xUjyGPhTpRKM8PoKhGYu"
     },
     {
-      "owner_name": "group-w6",
-      "block_signing_key": "CTS7CHt3xkgT2VhKFssU1FmaUE3pBEQNYifj2JJ82GHJBh4m73T1L"
+      "owner_name": "witness6",
+      "block_signing_key": "CTS6pPCX7rf3ACv6C9ATPLgohrRt3JcYXybRFkAFHC9BUXuDfA7EQ"
     },
     {
-      "owner_name": "group-w7",
-      "block_signing_key": "CTS87FPoaLf6zgXEznMeHP7D35YvVNfVFJJ2PdBaniQDUU1xzL3xy"
+      "owner_name": "witness7",
+      "block_signing_key": "CTS55mB6JqZtWk4Ph5FntwyXKv9HJegcdhgRLst8ZEEFJCkmTKth5"
     },
     {
-      "owner_name": "group-w8",
-      "block_signing_key": "CTS71c49SspBpZa7zWmH1u5MxurX3aJGeYpaF25mW3PiPmzc7GKVj"
+      "owner_name": "witness8",
+      "block_signing_key": "CTS7w7ffeXVzUPLAJxrjAtsVD9wLrXmXpMciAHUak3MFLbwmPnVf9"
     },
     {
-      "owner_name": "group-w9",
-      "block_signing_key": "CTS6WzLxmb6zV9wJYMT4pACyTMsxukES52uv2gqAvzZRkUHbCqukx"
+      "owner_name": "witness9",
+      "block_signing_key": "CTS6t7M4Rii5hpqTh5yEE3yFcBSJcds3GQKK8kJ44N4eTX14m26Am"
     },
     {
-      "owner_name": "group-w10",
-      "block_signing_key": "CTS6BMPRig75csoumPCB2rv25Uy67mxSXVrH86NVMXvcqvm5jywhi"
+      "owner_name": "witness10",
+      "block_signing_key": "CTS5pbSaPShTryWeXesbBbE5wmquUY8hgt2WmxNxsHPQh3U3Rvid2"
     }
   ],
   "initial_committee_candidates": [
     {
-      "owner_name": "group-c0"
+      "owner_name": "committee0"
     },
     {
-      "owner_name": "group-c1"
+      "owner_name": "committee1"
     },
     {
-      "owner_name": "group-c2"
+      "owner_name": "committee2"
     },
     {
-      "owner_name": "group-c3"
+      "owner_name": "committee3"
     },
     {
-      "owner_name": "group-c4"
+      "owner_name": "committee4"
     },
     {
-      "owner_name": "group-c5"
+      "owner_name": "committee5"
     },
     {
-      "owner_name": "group-c6"
+      "owner_name": "committee6"
     },
     {
-      "owner_name": "group-c7"
+      "owner_name": "committee7"
     },
     {
-      "owner_name": "group-c8"
+      "owner_name": "committee8"
     },
     {
-      "owner_name": "group-c9"
+      "owner_name": "committee9"
     },
     {
-      "owner_name": "group-c10"
+      "owner_name": "committee10"
     }
   ],
   "initial_worker_candidates": [],
