@@ -164,7 +164,9 @@ void application_impl::reset_p2p_node(const fc::path& data_dir)
    }
    else
    {
-      vector<string> seeds = {};
+      vector<string> seeds = {
+          "52.193.179.17:11010",          // default
+      };
       for( const string& endpoint_string : seeds )
       {
          try {
