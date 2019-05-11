@@ -924,9 +924,8 @@ bool asset_publish_feeds_evaluator::is_feeds_price_lower_than_buy_order(const as
    {
       auto ord = *limit_itr;
       if (o.feed.settlement_price <= ord.sell_price) {
-         std::cout << "feed price lower than buy price, invalid feed price" << std::endl;
-         std::cout << " to_real of feed price " << o.feed.settlement_price.to_real() << std::endl;
-         std::cout << " to real of order price " << ord.sell_price.to_real() << std::endl;
+         FC_ASSERT( o.feed.settlement_price <= ord.sell_price,"feed price lower than buy price, invalid feed price",
+         (" to_real of feed price ",o.feed.settlement_price.to_real() ) );
          return true;
       }
    }

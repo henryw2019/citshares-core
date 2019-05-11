@@ -227,7 +227,8 @@ void database::pay_workers( share_type& budget )
 void database::update_active_witnesses()
 { try {
    assert( _witness_count_histogram_buffer.size() > 0 );
-   share_type stake_target = (_total_voting_stake-_witness_count_histogram_buffer[0]) / 2;
+   // stake_target change higher to increase witness number.
+   share_type stake_target = (_total_voting_stake-_witness_count_histogram_buffer[0]) / 1.25;
 
    /// accounts that vote for 0 or 1 witness do not get to express an opinion on
    /// the number of witnesses to have (they abstain and are non-voting accounts)
